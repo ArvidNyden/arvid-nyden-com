@@ -20,6 +20,7 @@ namespace ArvidNyden.Server
                     .AddCommandLine(args)
                     .Build())
                 .UseStartup<Startup>()
+                .UseApplicationInsights()
                 .Build();
     }
 }

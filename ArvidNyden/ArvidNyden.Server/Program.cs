@@ -19,6 +19,7 @@ namespace ArvidNyden.Server
             WebHost.CreateDefaultBuilder(args)
                 .UseConfiguration(new ConfigurationBuilder()
                     .AddUserSecrets<ApiSettings>()
+                    .AddEnvironmentVariables()
                     .AddCommandLine(args)
                     .Build())
                 .UseStartup<Startup>()

@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArvidNyden.Client", "ArvidN
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArvidNyden.Shared", "ArvidNyden\ArvidNyden.Shared\ArvidNyden.Shared.csproj", "{FFBDC889-18DB-49A8-9A87-B549485B5864}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArvidNyden.TestUnit", "ArvidNyden.TestUnit\ArvidNyden.TestUnit.csproj", "{36FEB197-B4D9-425C-9D77-B8807388C168}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FFBDC889-18DB-49A8-9A87-B549485B5864}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFBDC889-18DB-49A8-9A87-B549485B5864}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFBDC889-18DB-49A8-9A87-B549485B5864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36FEB197-B4D9-425C-9D77-B8807388C168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36FEB197-B4D9-425C-9D77-B8807388C168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36FEB197-B4D9-425C-9D77-B8807388C168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36FEB197-B4D9-425C-9D77-B8807388C168}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

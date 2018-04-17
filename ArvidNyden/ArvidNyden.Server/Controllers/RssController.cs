@@ -18,8 +18,6 @@ namespace ArvidNyden.Server.Controllers
         public RssController(IOptions<ApiSettings> settings)
         {
             apiUrl = settings.Value.ApiUrl;
-
-            Console.WriteLine("Using api url " + apiUrl);
         }
 
         [HttpGet("[action]")]
